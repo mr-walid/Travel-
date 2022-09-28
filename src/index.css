@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container{
+   width: 550px;
+   height: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap:30px;
+   background-color: #F55A5A;
+   font-size: 40px;
+   line-height: 18px;
+   letter-spacing: -0.075em;
+   color: #FFFFFF;
+   
+}
+.header-container h3{
+     font-size: 30px;
+}
+
+.body-container{
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.body-container .card{
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.card .img{
+  width: 30%;
+  height: 90%;
+}
+.img img{
+  width: 125px;
+  height: 200px;
+  border-radius: 10%;
+}
+.card .info{
+  width: 70%;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+.info .loc{
+  width: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start;
+  margin-left: 10px;
+  gap: 10px;
+  font-size: 15px;
+  color: orange;
+}
+.loc h4{
+  font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+color: #2B283A;
+}
+.loc a{
+  font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #918E9B;
+}
+.info h2{
+  font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #2B283A;
+position: absolute;
+top: 30px;
+}
+.info span{
+  font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+color: #2B283A;
+position: absolute;
+top: 90px;
+}
+.info p{
+  font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+color: #2B283A;
+position: absolute;
+top: 100px;
+}
